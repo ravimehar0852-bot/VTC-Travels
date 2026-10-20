@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact & Trip Inquiry | VTC Travels Delhi</title><meta name="description" content="Contact VTC Travels in Budh Vihar, New Delhi. Send a trip inquiry via WhatsApp for group, family, honeymoon and pilgrimage tours.">
+<link rel="canonical" href="https://www.example.com/contact.html"><!-- replace SITE with your live domain -->
+<meta property="og:type" content="website"><meta property="og:title" content="Contact & Trip Inquiry | VTC Travels Delhi"><meta property="og:description" content="Contact VTC Travels in Budh Vihar, New Delhi. Send a trip inquiry via WhatsApp for group, family, honeymoon and pilgrimage tours."><meta property="og:url" content="https://www.example.com/contact.html"><meta property="og:image" content="https://www.example.com/assets/images/hero.jpg">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body><div id="site-header"></div>
+<main><div class="page-hero"><div class="wrap"><h1>Contact & Booking</h1><p>Share your trip details and we will continue the conversation on WhatsApp.</p></div></div>
+<section><div class="wrap split" style="align-items:start"><div>
+<h2>VTC Travels</h2><p style="margin:.8rem 0">C-35, Budh Vihar Phase-1,<br>New Delhi, Delhi 110086</p>
+<p><a href="tel:+919354930535">+91 93549 30535</a><br><a href="tel:+919355230535">+91 93552 30535</a><br><a href="mailto:travelsvtc@gmail.com">travelsvtc@gmail.com</a><br>
+<a href="https://www.instagram.com/travelsvtc/" target="_blank" rel="noopener">Instagram @travelsvtc</a></p>
+<p style="margin-top:.8rem">Hours: Open 24 hours <!-- confirm with owner before publishing --></p>
+<iframe class="map" style="margin-top:1rem" title="VTC Travels location map" loading="lazy" src="https://www.google.com/maps?q=C-35+Budh+Vihar+Phase-1+New+Delhi+110086&output=embed"></iframe></div>
+<form id="trip-form" class="grid2" novalidate>
+<div><label for="c-n">Full name *</label><input id="c-n" name="name" autocomplete="name"><span class="err" data-err="name"></span></div>
+<div><label for="c-p">Phone number *</label><input id="c-p" name="phone" type="tel" autocomplete="tel"><span class="err" data-err="phone"></span></div>
+<div><label for="c-e">Email address</label><input id="c-e" name="email" type="email" autocomplete="email"><span class="err" data-err="email"></span></div>
+<div><label for="c-d">Destination *</label><select id="c-d" name="dest"><option value="">Choose destination</option></select><span class="err" data-err="dest"></span></div>
+<div><label for="c-c">Departure city</label><input id="c-c" name="city" value="Delhi"></div>
+<div><label for="c-ty">Type of trip</label><select id="c-ty" name="type"><option>Family</option><option>Group</option><option>Honeymoon</option><option>Pilgrimage</option><option>Weekend</option><option>Adventure</option><option>Customized</option></select></div>
+<div><label for="c-dt">Travel date</label><input id="c-dt" name="date" type="date"></div>
+<div><label for="c-r">Return date</label><input id="c-r" name="ret" type="date"><span class="err" data-err="ret"></span></div>
+<div><label for="c-a">Adults</label><input id="c-a" name="adults" type="number" min="1" value="2"></div>
+<div><label for="c-ch">Children</label><input id="c-ch" name="children" type="number" min="0" value="0"></div>
+<div class="span2"><label for="c-b">Budget range</label><select id="c-b" name="budget"><option value="">Not decided</option><option>Under ₹10,000 per person</option><option>₹10,000 – ₹20,000 per person</option><option>₹20,000 – ₹40,000 per person</option><option>Above ₹40,000 per person</option></select></div>
+<div class="span2"><label for="c-n2">Additional requirements</label><textarea id="c-n2" name="notes"></textarea></div>
+<div class="span2"><button class="btn gold" type="submit">Send Inquiry on WhatsApp</button><p id="form-status" role="status" class="err" style="margin-top:.6rem;color:var(--text)"></p>
+<p class="note">Submitting an inquiry opens WhatsApp with your details. It does not confirm a reservation.</p></div></form></div></section></main>
+<div id="site-footer"></div>
+<script src="js/app.js"></script></body></html>
